@@ -3,8 +3,24 @@
   "repoId": "PARTNER_DEFAULT_NO_CUSTOMER_test-andre-2020",
   "id": 7,
   "type": "step",
-  "actions": null,
-  "reactions": null,
+  "actions": [
+    {
+      "source": [
+        "if Input.match('contains', 'hi|asdf', Context.get('currentMessage'), {}) then Workflow.branch('5') end"
+      ],
+      "_id": "5ff8cf4e92c3ebf7e80e38e9",
+      "id": "90cecd29-cf7f-49d6-a1a7-601974a2b1cf"
+    }
+  ],
+  "reactions": [
+    {
+      "source": [
+        "esta es una prueba"
+      ],
+      "_id": "5ff8cf4e92c3eba3400e38ea",
+      "id": "d7d66766-1b55-447d-be8a-bcd7befeaf3b"
+    }
+  ],
   "triggers": null,
   "__v": 0,
   "name": "step-name-5"
