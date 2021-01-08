@@ -1,11 +1,11 @@
 {
-  "_id": "5ff8cc5792c3eb181b0e38db",
+  "_id": "5ff8cda692c3eb6d6c0e38e2",
   "repoId": "PARTNER_DEFAULT_NO_CUSTOMER_test-andre-2020",
-  "id": 6,
+  "id": 9,
   "type": "step",
   "actions": null,
   "reactions": null,
   "triggers": null,
   "__v": 0,
-  "name": "step-name-4"
+  "name": "step-name-7"
 }
